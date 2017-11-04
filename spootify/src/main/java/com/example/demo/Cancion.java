@@ -37,7 +37,7 @@ public class Cancion {
 	@Column
 	private Long id_album;
 	
-	private string test;
+	private String test;
 	private  int  jesamin;
 	
 
