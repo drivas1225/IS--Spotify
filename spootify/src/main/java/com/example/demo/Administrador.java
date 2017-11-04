@@ -22,13 +22,9 @@ public class Administrador extends Persona{
 	private String nickname;
 	@Column(length = 64)
 	private String password;
-	
-	
-	
 	@Column(nullable = false)
 	private Date fecha = new Date();
 	
-
 	public Administrador(){
 		
 	}
