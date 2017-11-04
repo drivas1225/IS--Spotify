@@ -36,6 +36,8 @@ public class Cancion {
 	
 	@Column
 	private Long id_album;
+	
+	private string test;
 
 	@ManyToOne
 	@JoinColumn(name = "id_playlist")
