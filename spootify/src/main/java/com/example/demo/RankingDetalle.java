@@ -6,6 +6,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 @Entity
 public class RankingDetalle {
@@ -13,8 +15,13 @@ public class RankingDetalle {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id_rankingdetalle;
 	
-	@Column
-	private Long id_ranking;
+	@ManyToOne
+	@JoinColumn(name = "id_ranking")
+	private Ranking id_ranking;
+	
+	@ManyToOne
+	@JoinColumn(name = "id_cancion")
+	private Cancion id;
 	
 	@Column(length = 64)
 	private String nombre_cancion;
@@ -28,3 +35,4 @@ public class RankingDetalle {
 	@Column
 	private Date fecha;
 }
+
