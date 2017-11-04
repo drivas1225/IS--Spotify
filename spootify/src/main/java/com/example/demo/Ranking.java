@@ -26,5 +26,13 @@ public class Ranking {
 	public void setFecha(Date fecha) {
 		this.fecha = fecha;
 	}
+	
+	public String getNombre() {
+		return nombre;
+	}
+	
+	public Date getFecha() {
+		return fecha;
+	}
 
 }
