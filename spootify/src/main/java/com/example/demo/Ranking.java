@@ -19,5 +19,12 @@ public class Ranking {
 	@Column
 	private Date fecha;
 	
+	public void setnombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
+	}
 
 }
