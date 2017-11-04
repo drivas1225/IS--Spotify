@@ -18,12 +18,10 @@ import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.SequenceGenerator;
 
 
-
 @Entity
 @PrimaryKeyJoinColumn(referencedColumnName="id")
 public class Artista extends Persona{
 	
-
 
 	/*@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
