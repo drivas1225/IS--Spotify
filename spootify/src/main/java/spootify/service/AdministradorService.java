@@ -11,5 +11,6 @@ public class AdministradorService {
 	@Autowired
 	AdministradorRepository repository;
 	
-
+	private Administrador admin;
+	
 }
