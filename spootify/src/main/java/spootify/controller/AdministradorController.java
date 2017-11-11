@@ -14,5 +14,7 @@ import spootify.service.AdministradorService;
 public class AdministradorController {
 	@Autowired
 	AdministradorService admiService;
+	
+	
 
 }
