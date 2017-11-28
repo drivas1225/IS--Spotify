@@ -42,14 +42,7 @@ public class PlayList {
 	private Long id_cancion;
 	
 
-	/*
-	
-	public List<Cancion> canciones;
-	 @OneToMany(mappedBy = "playlist_cancion", cascade = CascadeType.ALL)
-	    public List<Cancion> getcanciones() {
-	        return canciones;
-	    }*/
-	
+
 
     @OneToMany(mappedBy = "id_playlist")
     private List<Cancion> canciones;
@@ -130,7 +123,7 @@ public class PlayList {
 	
 
 		
-//verificando conflictosss
+
 }
 	
 	

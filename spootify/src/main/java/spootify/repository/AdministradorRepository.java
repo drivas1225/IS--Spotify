@@ -23,3 +23,4 @@ public interface AdministradorRepository extends CrudRepository<Administrador, L
 
 }
 
+

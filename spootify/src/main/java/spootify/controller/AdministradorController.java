@@ -1,5 +1,6 @@
 package spootify.controller;
 
+
 import com.example.demo.Administrador;
 import spootify.service.AdministradorService;
 
@@ -45,4 +46,3 @@ public class AdministradorController {
 	//}
 	
 
-}
