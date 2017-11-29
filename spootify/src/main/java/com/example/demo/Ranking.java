@@ -34,5 +34,6 @@ public class Ranking {
 	public Date getFecha() {
 		return fecha;
 	}
+	//lo que sea
 
 }
