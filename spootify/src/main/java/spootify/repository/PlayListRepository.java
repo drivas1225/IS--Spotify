@@ -15,5 +15,5 @@ public interface PlayListRepository  extends CrudRepository<PlayList, Long>{
 	@Query("SELECT a FROM PlayList a WHERE a.ususario=?1")
 	List<PlayList> encontrar_cancion(Usuario usuario);
 	
-
+///testeandpooo
 }
