@@ -59,7 +59,7 @@ public class Administrador extends Persona{
 		this.fecha = created;
 	}
 	/*
-	
+	///refractorizandoo...
 	public void login(){
 		
 	}
