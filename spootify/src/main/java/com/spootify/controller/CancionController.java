@@ -1,5 +1,5 @@
 
-package spootify.controller;
+package com.spootify.controller;
 import org.slf4j.Logger;
 
 @Controller

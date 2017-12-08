@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.spootify.domain;
 
 import java.util.Date;
 import java.util.List;

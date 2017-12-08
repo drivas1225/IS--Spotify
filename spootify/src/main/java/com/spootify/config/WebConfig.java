@@ -1,4 +1,4 @@
-package spootify.config;
+package com.spootify.config;
 
 import org.jtwig.spring.JtwigViewResolver;
 import org.springframework.context.annotation.Bean;

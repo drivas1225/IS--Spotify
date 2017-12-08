@@ -1,4 +1,4 @@
-package spootify.service;
+package com.spootify.service;
 
 import java.util.Date;
 

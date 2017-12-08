@@ -1,4 +1,4 @@
-package spootify.controller;
+package com.spootify.controller;
 @Controller
 public class LoginController {
     private final Logger logger = LoggerFactory.getLogger(LoginController.class);

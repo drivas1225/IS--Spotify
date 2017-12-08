@@ -1,8 +1,8 @@
-package spootify.controller;
+package com.spootify.controller;
 
 
-import com.example.demo.Administrador;
-import spootify.service.AdministradorService;
+import com.spootify.domain.Administrador;
+import com.spootify.repository.service.AdministradorService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
