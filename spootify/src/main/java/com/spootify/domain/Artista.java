@@ -22,12 +22,6 @@ import javax.persistence.SequenceGenerator;
 @PrimaryKeyJoinColumn(referencedColumnName="id")
 public class Artista extends Persona{
 	
-
-	/*@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Long id;
-	*/
-
 	@Column(length = 64)
 	private String nickname;
 
@@ -58,12 +52,6 @@ public class Artista extends Persona{
     @OneToMany(mappedBy = "artista")
     private List<Album> albumes;
 
-
-
-    
-
-
-
 	public Date getFecha() {
 		return fecha;
 	}
@@ -71,8 +59,6 @@ public class Artista extends Persona{
 	public void setFecha(Date fecha) {
 		this.fecha = fecha;
 	}
-	
-	
 
 	public void crear_album()
 	{
