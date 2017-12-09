@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="spootify/src/main/java"/>
 	<classpathentry kind="src" path="spootify/src/test/java"/>
+	<classpathentry kind="src" path="fragments"/>
 	<classpathentry kind="lib" path="spootify/.mvn/wrapper/maven-wrapper.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/app"/>
