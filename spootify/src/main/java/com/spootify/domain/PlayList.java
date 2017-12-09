@@ -27,10 +27,6 @@ public class PlayList {
 	
 	@Column(length = 64)
 	private String nombre;
-
-	
-	//@Column(length = 64)
-	//private Long id_usuario;
 	
 	@Column
 	private Boolean estado;
