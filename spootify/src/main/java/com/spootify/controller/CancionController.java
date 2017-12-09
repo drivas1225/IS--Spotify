@@ -1,7 +1,6 @@
 
 package com.spootify.controller;
-import org.slf4j.Logger;
-
+import com.spootify.domain.Cancion;
 @Controller
 public class CancionController {
     private final Logger logger = LoggerFactory.getLogger(CancionController.class);
