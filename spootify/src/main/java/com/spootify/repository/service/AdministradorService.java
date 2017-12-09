@@ -1,4 +1,4 @@
-package com.spootify.service;
+package com.spootify.repository.service;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;

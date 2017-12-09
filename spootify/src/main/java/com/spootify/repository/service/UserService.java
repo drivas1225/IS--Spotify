@@ -1,4 +1,4 @@
-package com.spootify.service;
+package com.spootify.repository.service;
 @Component
 public class UserService {
 
